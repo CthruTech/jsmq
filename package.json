@@ -1,20 +1,21 @@
 {
-    "name": "evented",
-    "version": "0.1.0",
-    "description": "JSON Diff report generator",
+    "name": "@cthru/evented",
+    "version": "0.1.1",
+    "description": "Simple class to add events by class extension",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pub" : "npm publish --access public"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/CthruTech/json-diff-report.git"
+        "url": "https://github.com/CthruTech/evented.git"
     },
     "author": "Mark Holtzhausen <nemesarial@gmail.com>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/CthruTech/json-diff-report/issues"
+        "url": "https://github.com/CthruTech/evented/issues"
     },
-    "homepage": "https://github.com/CthruTech/json-diff-report",
+    "homepage": "https://github.com/CthruTech/evented",
     "dependencies": {}
 }
