@@ -1,21 +1,24 @@
 {
-    "name": "@cthru/evented",
-    "version": "0.1.2",
-    "description": "Simple class to add events by class extension",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "pub" : "npm publish --access public"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/CthruTech/evented.git"
-    },
-    "author": "Mark Holtzhausen <nemesarial@gmail.com>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/CthruTech/evented/issues"
-    },
-    "homepage": "https://github.com/CthruTech/evented",
-    "dependencies": {}
+  "name": "@cthru/jsmq",
+  "version": "0.1.1",
+  "description": "Javascript based media queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CthruTech/jsmq.git"
+  },
+  "author": "Mark Holtzhausen <nemesarial@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CthruTech/jsmq/issues"
+  },
+  "homepage": "https://github.com/CthruTech/jsmq",
+  "dependencies": {},
+  "devDependencies": {
+    "@cthru/evented": "^0.1.3"
+  }
 }
