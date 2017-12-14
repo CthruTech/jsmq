@@ -1,6 +1,7 @@
 class Evented {
     constructor() {
-        this.callbacks = {}
+        this.callbacks = {};
+        this.debug = false;
     }
 
     getCallbacks(event) {
@@ -11,15 +12,18 @@ class Evented {
     }
 
     on(event, callback) {
-        let cbs = this.getCallbacks(event)
-        if (typeof event === 'function') cbs.push(event);
+        let cbs = this.getCallbacks(event);
+        if (typeof callback === 'function') cbs.push(callback);
     }
 
     trigger(event, data) {
         let cbs = this.getCallbacks(event);
+        this.debug && console.log(`Event Triggered: ${event}`, data);
         cbs.forEach(cb => {
-            if (typeof cb === 'function') { }
-        })
+            if (typeof cb === 'function') {
+                cb(data);
+            }
+        });
     }
 }
 
